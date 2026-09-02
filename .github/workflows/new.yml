@@ -12,7 +12,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v7
       - name: Display current directory
-       run: echo pwd
+        run: echo pwd
       - name: List files
         run: echo  ls
       - name: Date
