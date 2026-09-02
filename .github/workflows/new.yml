@@ -1,0 +1,24 @@
+name: Action1
+on: 
+ push:
+   branches: [ main ]
+ workflow_dispatch:
+
+
+jobs:
+  build1:
+    runs-on: ubuntu-latest
+    
+  steps: 
+      - uses: actions/checkout@v7
+      - name: Display current directory
+       run: echo pwd
+      - name: List files
+        run: echo  ls
+      - name: Date
+        run:  echo date
+      - name: New Text file
+        run: touch test1.txt
+    
+    
+      
