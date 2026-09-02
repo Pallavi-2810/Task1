@@ -9,7 +9,7 @@ jobs:
   build1:
     runs-on: ubuntu-latest
     
-  steps: 
+    steps: 
       - uses: actions/checkout@v7
       - name: Display current directory
        run: echo pwd
