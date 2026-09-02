@@ -18,7 +18,11 @@ jobs:
       - name: Date
         run: date
       - name: New Text file
-        run: touch test1.txt
+        run: |
+          touch test1.txt
+          code test1.txt
+          echo file created
+        
     
     
       
