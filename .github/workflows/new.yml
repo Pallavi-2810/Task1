@@ -12,11 +12,11 @@ jobs:
     steps: 
       - uses: actions/checkout@v7
       - name: Display current directory
-        run: echo pwd
+        run: pwd
       - name: List files
-        run: echo  ls
+        run: ls
       - name: Date
-        run:  echo date
+        run: date
       - name: New Text file
         run: touch test1.txt
     
