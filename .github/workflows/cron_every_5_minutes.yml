@@ -1,4 +1,4 @@
-name: push_workflow
+name: cron_workflow
 
 on:
   push:
