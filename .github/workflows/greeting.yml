@@ -1,4 +1,4 @@
-name: simple
+name: push_workflow
 
 on:
   push:
